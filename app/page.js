@@ -1,9 +1,9 @@
 import Header from './components/header';
 import Body1 from './components/body';
-import Link from 'next/Link';
+
 export default function Home() {
   return (
-    <div>
+    <div className='bg-gray-100 h-[100vh]'>
       <Header/>
       <Body1/>
     </div>
